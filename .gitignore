@@ -1,0 +1,23 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace/cache
+/pkg/
+/bin/
+/dist/
+
+# Coverage reports
+*.coverprofile
+coverage.txt
+
+# Editor/OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
